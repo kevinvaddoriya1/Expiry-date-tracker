@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ExpiryDateTracker" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">#0C0B0B</item>
+        <item name="android:statusBarColor">#03A9F4</item>
+
+    </style>
+</resources>

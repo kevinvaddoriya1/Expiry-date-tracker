@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="expirydatetracker.Registration"
+    android:background="#03A9F4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registration"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:fontFamily="@font/asdf"
+            android:textAlignment="center"
+
+            />
+        <EditText
+            android:id="@+id/gmail"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Gmail"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/edit_text"
+            android:drawableStart="@drawable/baseline_email_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:inputType="textEmailAddress"
+            android:fontFamily="@font/asdf"
+
+            />
+        <EditText
+            android:id="@+id/usr"
+            android:fontFamily="@font/asdf"
+
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/username"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/edit_text"
+            android:paddingStart="10dp"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="10dp"
+            />
+        <EditText
+            android:id="@+id/pass"
+            android:fontFamily="@font/asdf"
+
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/password"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/edit_text"
+            android:paddingStart="10dp"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/baseline_vpn_key_24"
+            android:drawablePadding="10dp"
+            />
+        <EditText
+            android:fontFamily="@font/asdf"
+
+            android:id="@+id/conf_pass"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/conform_password"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/edit_text"
+            android:paddingStart="10dp"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/baseline_vpn_key_24"
+            android:drawablePadding="10dp"
+            />
+        <Button
+            android:fontFamily="@font/asdf"
+
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/registration"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:backgroundTint="@color/white"
+            android:textColor="#03A9F4"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:fontFamily="@font/asdf"
+
+            android:id="@+id/login_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="alredy have account ? Login account "
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:clickable="true"
+            />
+    </LinearLayout>
+
+</LinearLayout>

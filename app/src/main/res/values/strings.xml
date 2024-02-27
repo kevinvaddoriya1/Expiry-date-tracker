@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Expiry date tracker</string>
+    <string name="expiry_tracker">Expiry Tracker</string>
+    <string name="registration">Registration</string>
+    <string name="username">   Username</string>
+    <string name="password">    Password</string>
+    <string name="conform_password">    conform password</string>
+    <string name="phone_number">    Phone Number</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
